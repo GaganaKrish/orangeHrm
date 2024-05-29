@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-28T09:49:32 IST" name="Default suite" finished-at="2024-05-28T09:49:49 IST" duration-ms="17628">
+    <groups>
+    </groups>
+    <test started-at="2024-05-28T09:49:32 IST" name="Default test" finished-at="2024-05-28T09:49:49 IST" duration-ms="17628">
+      <class name="com.orangeHRM.testcases.Testcase1">
+        <test-method is-config="true" signature="login()[pri:0, instance:com.orangeHRM.testcases.Testcase1@6404f418]" started-at="2024-05-28T09:49:32 IST" name="login" finished-at="2024-05-28T09:49:37 IST" duration-ms="5374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="open()[pri:0, instance:com.orangeHRM.testcases.Testcase1@6404f418]" started-at="2024-05-28T09:49:37 IST" name="open" finished-at="2024-05-28T09:49:42 IST" duration-ms="4920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method signature="AddEmp()[pri:0, instance:com.orangeHRM.testcases.Testcase1@6404f418]" started-at="2024-05-28T09:49:42 IST" name="AddEmp" finished-at="2024-05-28T09:49:48 IST" duration-ms="5830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddEmp -->
+        <test-method is-config="true" signature="signout(org.testng.ITestResult)[pri:0, instance:com.orangeHRM.testcases.Testcase1@6404f418]" started-at="2024-05-28T09:49:48 IST" name="signout" finished-at="2024-05-28T09:49:49 IST" duration-ms="1448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddEmp status=SUCCESS method=Testcase1.AddEmp()[pri:0, instance:com.orangeHRM.testcases.Testcase1@6404f418] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout -->
+      </class> <!-- com.orangeHRM.testcases.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
